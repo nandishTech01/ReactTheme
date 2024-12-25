@@ -14,7 +14,7 @@ const TypographyPage = Loadable(lazy(() => import('../views/utilities/Typography
 const Shadow = Loadable(lazy(() => import('../views/utilities/Shadow')))
 const Error = Loadable(lazy(() => import('../views/authentication/Error')));
 const Register = Loadable(lazy(() => import('../views/authentication/Register')));
-const Login = Loadable(lazy(() => import('../views/authentication/Login')));
+const Login = Loadable(lazy(() => import('../views/authentication/Login.js')));
 
 const Router = [
   {
