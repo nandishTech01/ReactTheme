@@ -1,6 +1,9 @@
 import React from 'react';
 import { Box, AppBar, Toolbar, styled, Stack, IconButton, Badge, Button } from '@mui/material';
 import PropTypes from 'prop-types';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Import FontAwesomeIcon
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons'; // Import the shopping cart icon
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 // components
 import Profile from './Profile';
@@ -70,6 +73,9 @@ const Header = (props) => {
           <Button variant="text" color="inherit" href="#contact-us">
             Contact Us
           </Button>
+          <Link to="/cart">
+            <FontAwesomeIcon icon={faCartShopping} />
+          </Link>
           <Button variant="contained" color="primary"  target="_blank" href="http://localhost:5173/auth/login">
             Login/Register
           </Button>
