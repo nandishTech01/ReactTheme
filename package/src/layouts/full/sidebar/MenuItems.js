@@ -1,5 +1,5 @@
 import {
-  IconAperture, IconCopy, IconLayoutDashboard, IconLogin, IconMoodHappy, IconTypography, IconUserPlus
+  IconAperture, IconCopy, IconDetails, IconLayoutDashboard, IconLogin, IconMoodHappy, IconShoppingCart, IconShoppingCartOff, IconTypography, IconUserPlus
 } from '@tabler/icons-react';
 
 import { uniqueId } from 'lodash';
@@ -18,22 +18,6 @@ const Menuitems = [
   },
   {
     navlabel: true,
-    subheader: 'Utilities',
-  },
-  {
-    id: uniqueId(),
-    title: 'Typography',
-    icon: IconTypography,
-    href: '/ui/typography',
-  },
-  {
-    id: uniqueId(),
-    title: 'Shadow',
-    icon: IconCopy,
-    href: '/ui/shadow',
-  },
-  {
-    navlabel: true,
     subheader: 'Auth',
   },
   {
@@ -47,6 +31,56 @@ const Menuitems = [
     title: 'Register',
     icon: IconUserPlus,
     href: '/auth/register',
+  },
+  {
+    navlabel: true,
+    subheader: 'APP',
+  },
+  {
+    id: uniqueId(),
+    title: 'Shop',
+    icon: IconShoppingCart,
+    href: '/shop',
+  },
+  {
+    id: uniqueId(),
+    title: 'Detail',
+    icon: IconDetails,
+    href: '/details',
+  },
+  {
+    id: uniqueId(),
+    title: 'Add Product',
+    icon: IconShoppingCart,
+    href: '/addProduct',
+  },
+  {
+    id: uniqueId(),
+    title: 'Edit Product',
+    icon: IconShoppingCart,
+    href: '/editProduct',
+  },
+  {
+    id: uniqueId(),
+    title: 'Checkout',
+    icon: IconShoppingCart,
+    href: '/checkout',
+  },
+  {
+    navlabel: true,
+    subheader: 'Utilities',
+  },
+  {
+    id: uniqueId(),
+    title: 'Typography',
+    icon: IconTypography,
+    href: '/ui/typography',
+  },
+  {
+    id: uniqueId(),
+    title: 'Shadow',
+    icon: IconCopy,
+    href: '/ui/shadow',
   },
   {
     navlabel: true,

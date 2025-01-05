@@ -1,0 +1,138 @@
+.cart-container {
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.breadcrumb {
+  font-size: 14px;
+  color: #888;
+}
+
+.breadcrumb-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb-item {
+  margin-right: 5px;
+}
+
+.breadcrumb-separator {
+  margin: 0 5px;
+}
+
+.breadcrumb-img {
+  width: 165px;
+  height: 165px;
+}
+
+.cart-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.cart-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-name {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.item-price {
+  font-size: 16px;
+  color: #555;
+}
+
+.item-actions {
+  display: flex;
+  align-items: center;
+}
+
+.item-quantity {
+  width: 60px;
+  margin-right: 15px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.remove-button, .clear-cart-button, .checkout-button {
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.remove-button:hover, .clear-cart-button:hover, .checkout-button:hover {
+  background-color: #ff7875;
+}
+
+.clear-cart-button {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.cart-summary {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.cart-summary h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.checkout-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
